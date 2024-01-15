@@ -51,7 +51,8 @@ class MyHomePage extends StatelessWidget {
           ),
         );
       }),
-      floatingActionButton: Row(children: [
+      floatingActionButton:
+          Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
         FloatingActionButton(
           onPressed: () => stateProvider.increment(),
           tooltip: 'Increment',
